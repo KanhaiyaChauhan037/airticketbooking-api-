@@ -23,7 +23,7 @@ mongoose.connect(url , {
   });
 
 // Set up routes
-app.use('/users', userRoutes);
+app.use('/register', userRoutes);
 app.use('/flights', flightRoutes);
 
 // Start the server
